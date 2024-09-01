@@ -1,6 +1,6 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>This is Rutik Rekhawar ,Welcomes You!</h1>
+    <h1>This is Rutik Rekhawar ,Welcomes You!
     <p>Please fill in this form to create an account.</p>
     <hr>
      
