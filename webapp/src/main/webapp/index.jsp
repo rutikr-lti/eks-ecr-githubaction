@@ -1,7 +1,7 @@
 <form action="action_page.php">
   <div class="container">
 	  <h1>This is Rutik Rekhawar ,Welcomes You! Again <h1>
-    <p>!!!Have a great experience with us!!!</p>
+    <p>!!!Have a great experience with us</p>
     <p>Please fill in this form to create an account.</p>
     <hr>
      
