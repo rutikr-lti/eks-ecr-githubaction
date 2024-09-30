@@ -1,16 +1,14 @@
-apiVersion: apps/v1 
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: regapp-deployment1
+  name: regapp-deployment1111
   labels: 
-     app: regapp
-
+    app: regapp
 spec:
   replicas: 2 
   selector:
     matchLabels:
       app: regapp
-
   template:
     metadata:
       labels:
@@ -27,3 +25,16 @@ spec:
     rollingUpdate:
       maxSurge: 1
       maxUnavailable: 1
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: regapp-service
+spec:
+  selector:
+    app: regapp
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+  type: LoadBalancer
