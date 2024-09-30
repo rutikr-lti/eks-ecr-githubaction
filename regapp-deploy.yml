@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: regapp
-        image: ashfaque9x/regapp
+        image: registory1.azurecr.io/container1:a39e9016012570ceb4dc0951c01c4487dbd07db6
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
